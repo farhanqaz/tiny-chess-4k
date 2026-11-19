@@ -1,2 +1,95 @@
-import lzma,base64
-exec(lzma.decompress(base64.b85decode(b'{Wp48S^xk9=GL@E0stWa8~^|S5YJf5;1dK1FkJvNn@VT6Qap3u7A1{kq%B%n4sc?<5sPAaJ?ht?HAicU3o_xk0cZxN-L7*Aw*>@zuxihCXpeB7-G+B)m}CU+bA_Gh7$<T(mjy2P;_*@eBuK*}dq=j4aQ(PcUYv%TG&m{;>Y+Qyj-z=HOF6A@UH=8S4DraB1I*wQKvGTjP5wHhrqfG9<C{@YgqwaH4QK5>Lx55h8+zbiB={z2k+^C<CP-zV1Vbdh4=_a7U)SIA1#OSEf$z)wf&rG%HnEb{!K<2dM+x$aL~}6*#95a{SPKIE^AW2|sh>*P)wMsIPt(@P*Gy8orhK4wHfcw;{LQ9|?w3aHS6lO0AkKpS>k-=~kEU@;25)3@v4sQCN~mW^OE+@*b3o?BopKgx)H#Qf3rLGge%Bw$kI;D+fMs9XvHLyb`M|gRG<#^nXFUEqekrUQ^6jA*raK0WwZAvmB_)=u6N~XDgo<&VoS?PQDlhS(jmiFB?rSyOm@u8fo4rm=+imz0PO2BH>DiixsijCdFp_`sO0pJpoE35CN5M9DPDZ(9i>G+^Oy~mMdEs3h))#%sz^W)%ytts=)ReB#7FJp0<5RRO0B3=@MOChn^1gaz{89op)x?jKKwy$6LyQ!py6luoEi28_4G$sZBIR5Dz_wXL<;;eCy=Nm+HyJ4}m9<lHg7cpPeQ)g>qfI!b+MJooP@>Q>yn>d1mlF~`HS*u?$*m*0{AA)n1Cu(D#!|KCOR8@6)?}Kfw58FE^)e*Namo=wQxe(}9E)|SBV_u*OXnMOA+6~Ssm?_hSZH~G!5d!L=jZArCTb@*XJ&ZTUuN_-Wt?n<Ok@WH1R@FN*`0ni&|p@_<>u;RJ*ylPq$Be=ClWKD0HO&nZ1tBt$zK#rpv_Ln`UeFmwUs4&6Umxfqrl!kDSrr*c#3DYUKMemK1!L>>wL+%@4E&zG|H@gcV^5&`P)O!K_PI+gKmKdR~&ZTXK1j?uySPY6{j3Uz1m*gK;;!)<vWP>`<RCpi_s9$(wL=y&hORwtK{gBVp9#<{5v!fcm=eK2YuErs+a9;N$dtJOlC|MM5>%+JlQ9r#Npcc(g%5rd1R+*tO%t+HyKlF&WTpUgwo3FMrS>0PMdLjy%O{-TtrDi)M1B~oN6ZpPC3Lyf3xtV$>0pNt1sPJ2-q@g?J-j)uZi!iXzk`aG)j8JeGSy7CU-ZwQrH2~p+`rI|5PDZKnsI1X$`d`<9ISh6ktNg_%Ypo`~7=z78%rCtT3y2)R5vS=L{cZF3?}n&}ie0wmpJC9=8d-T_sKCEi&Rnm~BHLXqPr@i#R&?R=`Hxr#&n8T@$KZpYmQx>Nn_ZA>gjWK^#?8nyVx@4Oqma-UP_MYoAz1vtfGY9`=+gsQ!7sTD_FIkR~sg)hMNOK58a8ezsmK+Q|`1=8F6f8Gu}kPwc<RJ#<Bw(1nhLWHq8OOR_sb!X2Ro>M6lib)Ihe%F49YBeZc_u7Pph=_HEz6s}7ZyePuvQn4aa2xcEVWO-~`o9|8U>IwcaWjTKxc5YCRZiWQY2Ps>nG!T-XWlZK8)IRDt(F{O*<H4(B^&zThfZ|(Zz?`6aW?0!<g_+Faa$D0yg|e*qoM}6jdaF8zC`De*&^808El2k>5LL{4^~>uX*hr6~HE1a5+f)L5x1dsHth0CrR(<<^k%o@0k^0O42WiOOl-KnjiAZPcLMg<r@G3r8@Sm`c{|stHCbb_@1LSR!_2Lkz<6dW<B3Vp4Mpsz7*J7#{W#`k^Yllw4iw~WDK+}S<(N``tfT3yS*%2NrMide_8}NRnG{8A3W8xxL%Ixb~s6q@M+EvF%qj;-ACXJ<<<C@3FmkYo<;5pDd@dSMP<<SYxxsK+Yoi=K<B7PgSF+Rv3#CzoxmfSNsa&K1&o*nIQxoW>D>Ky(93DMHvA+&9GQSIAfmeo|Cv$xAkRxeP{Wg3Z#Z%BuMSb7_o3&N+Qq!_Lbi;n(0<O7-ebkR(R46be+q|G@uF!RHVNoqx9mMqO24+Q$_q91l0PC{cyM_wSfT>AyzV;`a6T1TQ%8^vXRNIYM^p6$-dcvzt&POGH0a3eDg$p=xHk(k1c?ageHio7A%u*7-o{P-nrVlJrSo(wA8wzdcP28Wyi4t!8@H1-KAX~#IxltA_@O*LGONp2hobU9QThmPE#s}2fml)U#{Uur|bhp`2n7wyvmCb}aarRap2Frx>jCOQ(ceDH*a;VK1#U$=}#pUgcUkflL~gt0BxOvfRhUkG4b{hQpJ8M5|RjO&9maqX(fNH29nH(8{gE)##NwqSVeT=xvf{$ag+f#K+vc1>Vp`DWE=k=)6EnX@(yvxkYElyZ3AultD$*klRICeg=UW(F{A)MyK{tP}>fAi0!pxIs_v4{%a@MlBo^P|<Y`^4*0_qcI%)fk?~a!#99@fP6Dcm`<c^6`KuEOWB6>CBnbcA#^iBQQTStfI8F<*ZW~hDkN5=_qyrF@$?*q0tXlT7RC>wJOnA`ww9&nSfbA#$jp699Y#ZtNf+Ip($f}Mo`I*Oa#vVg+4Gl3%U3e?y3J!rzmXz-8|t&^8Hg7$0(MqT$z9%1qCXYzj-1d<x`O`BKZ<W&vp@NjGnvoK`jf*)&2CAge2t^yzNc~k$PY;*C+du*P|gj5KTqzuDAT^j*R}EinNMl8fk~PWxRy#Am<H!m5;iVuaOVU!0+TMd34y9r=EBsCb&{InXj2PBpCnGSf(YONXP0Rgi?R@3FC6aaSo%!&v-Cb&gZRAc>h2m3VtGloorqP!dD}tUpg?UdS(e?owEo^WA%H)-a-JZvRw`7RT~(jXo$7t*&p~keZTr)ge?r%iCiwBo{}|b+F2C|YC&Z||4}U#k*wfB*ifw_6g1oIii_}rRx>R5=dWl(Ou;vHMiPbMK)h73^R83i*EADw52C5Mz##RB7HA?a151}Q%*Oq`H-4>eM!}(^@fiXMm9mv9b`6{h=GEIgLW$xldnVasi$U34`ar6`*UTOa0&#n_J&|M%Gv_rY*(;Z+C7MPTRPjBY{=OB6rd8bZE00GPrg(d(1tFjnbvBYQl0ssI200dcD')))
+import json,os,time,zlib,base64,urllib.request as ur
+P='PNBRQK';V=[100,320,330,500,900,0];I=10**9;n=0;K={}
+T=[(c-75)*5 for c in zlib.decompress(base64.b85decode(b'c-n<fI}SrJ2s>MZ5aJh_q4&Q^P4Y5ysOlk(0XrY}gZG2XTB|Z6^7X=sRuz^obyq_<MbLh1K8OJtB&~$lbIx?;m{l{Fy}5PQgE5Ctq3aXf5Iu3K9-Xe*Cq+Of0G%7C_gLul-Fw98haGAExGf!p9JBB90lf6E`NJBgj{cszJ|-H2@R%Pgy<--Y4c(uKFRhjCx#|N<L2m>'))]
+D=[(1,0),(-1,0),(0,1),(0,-1),(1,1),(1,-1),(-1,1),(-1,-1)]
+def g(s,o,k=1):return[8*(s//8+x*i)+s%8+y*i for x,y in o for i in range(1,k+1)if 0<=s//8+x*i<8 and 0<=s%8+y*i<8]
+R=[[g(s,[x],7)for x in D]for s in range(64)]
+N=[g(s,[(1,2),(2,1),(-1,2),(-2,1),(1,-2),(2,-1),(-1,-2),(-2,-1)])for s in range(64)]
+Y=[g(s,D)for s in range(64)]
+X=[[g(s,[(x,1),(x,-1)])for s in range(64)]for x in(-1,1)]
+Z=Exception
+def W(x,q):k=P.index(x.upper());h=1-2*(x>'Z');return h*(V[k]+T[64*k+(q^56*(h<0))])
+def A(b,s,o):
+ p=P if o else P.lower()
+ return any(b[q]==p[i]for i,L in((0,X[o]),(1,N),(5,Y))for q in L[s])or any(next((b[q]for q in r if b[q]>'.'),'')in(p[4],p[2+(k<4)])for k,r in enumerate(R[s]))
+def M(p,m):
+ b,w,c,e,v=p;s,t,z=m
+ b=b[:];x=b[s];v-=W(x,s)
+ if x in'Pp'and s%8!=t%8 and b[t]=='.':q=t+8*(2*w-1);v-=W(b[q],q);b[q]='.'
+ elif b[t]>'.':v-=W(b[t],t)
+ y=(z.upper()if w else z)or x;b[t]=y;b[s]='.';v+=W(y,t)
+ if A(b,b.index('kK'[w]),not w):return
+ return b,not w,c,(s+t)//2 if x in'Pp'and abs(t-s)==16 else-1,v
+def G(p):
+ b,w,c,e,_=p;m=[]
+ for s,x in enumerate(b):
+  if x=='.'or x.isupper()!=w:continue
+  k=x.lower()
+  if k=='p':
+   d=-8 if w else 8;t=s+d;z=[t]*(b[t]=='.')
+   if z and s//8==(6 if w else 1)and b[t+d]=='.':z+=[t+d]
+   z+=[t+h for h in(-1,1)if 0<=s%8+h<8 and(b[t+h]>'.'and b[t+h].isupper()!=w or t+h==e)]
+   m+=[(s,t,q)for t in z for q in'qrbn'*(t<8 or t>55)or['']]
+  elif k in'nk':m+=[(s,t,'')for t in(N if k=='n'else Y)[s]if b[t]=='.'or b[t].isupper()!=w]
+  else:
+   for r in R[s][:4]*(k!='b')+R[s][4:]*(k!='r'):
+    for t in r:
+     if b[t]>'.'and b[t].isupper()==w:break
+     m+=[(s,t,'')]
+     if b[t]>'.':break
+  if k=='k'and s==(60 if w else 4):
+   j='R'if w else'r'
+   if('K'if w else'k')in c and b[s+1:s+4]==['.','.',j]:m+=[(s,s+2,'')]
+   if('Q'if w else'q')in c and b[s-4:s]==[j,'.','.','.']:m+=[(s,s-2,'')]
+ return m
+def Pr(b,m,kl):
+ s,t,z=m;x=b[s];v=b[t]
+ if v>'.'or x in'Pp'and s%8!=t%8:return 10000+10*(V[P.find(v.upper())]if v>'.'else 100)-P.index(x.upper())
+ if z:return 9000
+ return 8000*(m in kl)
+def Q(p,d,a,b,y,q):
+ global n
+ n+=1
+ if n>4e4:raise Z
+ bd,w,c,e,v=p;ck=A(bd,bd.index('kK'[w]),not w);s=None;f=0;sv=v if w else-v
+ if d<=0 and(q>=4 or not ck and sv>=b):return sv
+ if d<=0 and not ck:a=max(a,sv);s=sv
+ kl=K.setdefault(y,[]);best=-I if s is None else s;al=G(p);ms=al
+ if s is not None:ms=[m for m in al if bd[m[1]]>'.'or m[2]or m[1]==e and bd[m[0]]in'Pp']
+ for _,m in sorted([(-Pr(bd,m,kl),m)for m in ms]):
+  nq=M(p,m)
+  if nq is None:continue
+  f=1;best=max(best,-Q(nq,d-1 if d>0 else 0,-b,-a,y+1,q+(d<=0)));a=max(a,best)
+  if a>=b:
+   if bd[m[1]]=='.'and not m[2]and m not in kl:kl[:]=([m]+kl)[:2]
+   break
+ if not f:return-100000+y if ck else 0
+ return best
+def pk(p):
+ global n,K
+ n=0;K={};bm=None
+ try:
+  for d in range(5):
+   a=-I;nb=None
+   for _,m in sorted([(-Pr(p[0],m,[]),m)for m in G(p)]):
+    nq=M(p,m)
+    if nq is None:continue
+    v=-Q(nq,d-1,-I,-a+1,1,0)
+    if nb is None or v>a:a=v;nb=m
+   bm=nb
+ except:pass
+ return bm
+def F(f):
+ a,w,c,e=f.split()[:4];b=[y for x in a.replace('/','')for y in(['.']*int(x)if x.isdigit()else[x])]
+ return b,w=='w',c,-1 if e=='-'else 8*(8-int(e[1]))+'abcdefgh'.index(e[0]),sum(W(x,i)for i,x in enumerate(b)if x>'.')
+if __name__=='__main__':
+ U=os.environ['MAKEFUN_ENV_URL']
+ def po(p,d):return json.load(ur.urlopen(ur.Request(U+p,json.dumps(d).encode(),{'Content-Type':'application/json'})))
+ while 1:
+  try:g=po('/game',{})
+  except:time.sleep(1);continue
+  if g['status']=='done':break
+  while g['status']=='your_move'and g['legal_moves']:
+   m=pk(F(g['fen']));u=''.join('abcdefgh'[x%8]+str(8-x//8)for x in m[:2])+m[2]if m else g['legal_moves'][0]
+   try:g=po('/move',{'game':g['game'],'move':u})
+   except:time.sleep(1)
