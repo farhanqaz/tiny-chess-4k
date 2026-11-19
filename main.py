@@ -1,6 +1,6 @@
-import json,os,time,zlib,base64,urllib.request as ur
+import json,os,time,zlib,base64 as b,urllib.request as ur
 P='PNBRQK';V=[100,320,330,500,900,0];I=10**9;n=0;K={}
-T=[(c-75)*5 for c in zlib.decompress(base64.b85decode(b'c-n<fI}SrJ2s>MZ5aJh_q4&Q^P4Y5ysOlk(0XrY}gZG2XTB|Z6^7X=sRuz^obyq_<MbLh1K8OJtB&~$lbIx?;m{l{Fy}5PQgE5Ctq3aXf5Iu3K9-Xe*Cq+Of0G%7C_gLul-Fw98haGAExGf!p9JBB90lf6E`NJBgj{cszJ|-H2@R%Pgy<--Y4c(uKFRhjCx#|N<L2m>'))]
+T=[(c-75)*5 for c in zlib.decompress(b.b85decode(b'c-n<fI}SrJ2s>MZ5aJh_q4&Q^P4Y5ysOlk(0XrY}gZG2XTB|Z6^7X=sRuz^obyq_<MbLh1K8OJtB&~$lbIx?;m{l{Fy}5PQgE5Ctq3aXf5Iu3K9-Xe*Cq+Of0G%7C_gLul-Fw98haGAExGf!p9JBB90lf6E`NJBgj{cszJ|-H2@R%Pgy<--Y4c(uKFRhjCx#|N<L2m>'))]
 D=[(1,0),(-1,0),(0,1),(0,-1),(1,1),(1,-1),(-1,1),(-1,-1)]
 def g(s,o,k=1):return[8*(s//8+x*i)+s%8+y*i for x,y in o for i in range(1,k+1)if 0<=s//8+x*i<8 and 0<=s%8+y*i<8]
 R=[[g(s,[x],7)for x in D]for s in range(64)]
@@ -63,7 +63,7 @@ def Q(p,d,a,b,y,q):
   if a>=b:
    if bd[m[1]]=='.'and not m[2]and m not in kl:kl[:]=([m]+kl)[:2]
    break
- if not f:return-100000+y if ck else 0
+ if not f:return best if s!=None else(-99999+y if ck else 0)
  return best
 def pk(p):
  global n,K
@@ -74,7 +74,7 @@ def pk(p):
    for _,m in sorted([(-Pr(p[0],m,[]),m)for m in G(p)]):
     nq=M(p,m)
     if nq is None:continue
-    v=-Q(nq,d-1,-I,-a+1,1,0)
+    v=-Q(nq,d-1,-I,-a,1,0)
     if nb is None or v>a:a=v;nb=m
    bm=nb
  except:pass
