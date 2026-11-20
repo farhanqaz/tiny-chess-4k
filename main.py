@@ -1,5 +1,5 @@
-import json,os,time,zlib,base64 as b,urllib.request as u
-P='PNBRQK';V=[100,320,330,500,900,0];I=1e9;n=0;K={};H={}
+import json,os,time,zlib,base64 as b,urllib.request as ur
+P='PNBRQK';V=[100,320,330,500,900,0];I=10**9;n=0;K={};H={}
 T=[(c-75)*5 for c in zlib.decompress(b.b85decode(b'c-n<fI}SrJ2s>MZ5aJh_q4&Q^P4Y5ysOlk(0XrY}gZG2XTB|Z6^7X=sRuz^obyq_<MbLh1K8OJtB&~$lbIx?;m{l{Fy}5PQgE5Ctq3aXf5Iu3K9-Xe*Cq+Of0G%7C_gLul-Fw98haGAExGf!p9JBB90lf6E`NJBgj{cszJ|-H2@R%Pgy<--Y4c(uKFRhjCx#|N<L2m>'))]
 D=[(1,0),(-1,0),(0,1),(0,-1),(1,1),(1,-1),(-1,1),(-1,-1)]
 def g(s,o,k=1):return[8*(s//8+x*i)+s%8+y*i for x,y in o for i in range(1,k+1)if 0<=s//8+x*i<8 and 0<=s%8+y*i<8]
@@ -40,21 +40,18 @@ def G(p):
  return m
 def Pr(b,m,kl):
  s,t,z=m;x=b[s];v=b[t]
- if v>'.'or x in'Pp'and s%8!=t%8:return 1e4+10*(V[P.find(v.upper())]if v>'.'else 100)-P.index(x.upper())
- if z:return 9e3
- return 8e3*(m in kl)
+ if v>'.'or x in'Pp'and s%8!=t%8:return 10000+10*(V[P.find(v.upper())]if v>'.'else 100)-P.index(x.upper())
+ if z:return 9000
+ return 8000*(m in kl)
 def Q(p,d,a,b,y,q):
  global n
  n+=1
- if n>6e4:raise Z
+ if n>8e4:raise Z
  bd,w,c,e,v=p;k=''.join(bd)+str(w);h=H.get(k);oa=a;bm=None
  if h and h[0]>=d and(h[2]==0 or h[2]>0 and h[1]>=b or h[2]<0 and h[1]<=a):return h[1]
- s=None;f=0;sv=v if w else-v
- if d<=0:
-  ck=A(bd,bd.index('kK'[w]),not w)
-  if q>=4 or not ck and sv>=b:return sv
-  if not ck:a=max(a,sv);s=sv
- else:ck=0
+ ck=A(bd,bd.index('kK'[w]),not w);s=None;f=0;sv=v if w else-v
+ if d<=0 and(q>=4 or not ck and sv>=b):return sv
+ if d<=0 and not ck:a=max(a,sv);s=sv
  kl=K.setdefault(y,[]);best=-I if s is None else s;al=G(p);ms=al
  if s is not None:ms=[m for m in al if bd[m[1]]>'.'or m[2]or m[1]==e and bd[m[0]]in'Pp']
  for _,m in sorted([(-Pr(bd,m,kl),m)for m in ms]):
@@ -66,14 +63,14 @@ def Q(p,d,a,b,y,q):
   if a>=b:
    if bd[m[1]]=='.'and not m[2]and m not in kl:kl[:]=([m]+kl)[:2]
    break
- if not f:return best if s!=None else(-1e5+y if A(bd,bd.index('kK'[w]),not w)else 0)
+ if not f:return best if s!=None else(-99999+y if ck else 0)
  H[k]=(d,best,0 if oa<best<b else(1 if best>=b else-1),bm)
  return best
 def pk(p):
  global n,K,H
  n=0;K={};H={};bm=None
  try:
-  for d in range(9):
+  for d in range(5):
    a=-I;nb=None
    for _,m in sorted([(-Pr(p[0],m,[]),m)for m in G(p)]):
     nq=M(p,m)
@@ -88,12 +85,12 @@ def F(f):
  return b,w=='w',c,-1 if e=='-'else 8*(8-int(e[1]))+'abcdefgh'.index(e[0]),sum(W(x,i)for i,x in enumerate(b)if x>'.')
 if __name__=='__main__':
  U=os.environ['MAKEFUN_ENV_URL']
- def po(p,d):return json.load(u.urlopen(u.Request(U+p,json.dumps(d).encode())))
+ def po(p,d):return json.load(ur.urlopen(ur.Request(U+p,json.dumps(d).encode())))
  while 1:
   try:g=po('/game',{})
   except:time.sleep(1);continue
   if g['status']=='done':break
   while g['status']=='your_move'and g['legal_moves']:
-   m=pk(F(g['fen']));z=''.join('abcdefgh'[x%8]+str(8-x//8)for x in m[:2])+m[2]if m else g['legal_moves'][0]
-   try:g=po('/move',{'game':g['game'],'move':z})
+   m=pk(F(g['fen']));u=''.join('abcdefgh'[x%8]+str(8-x//8)for x in m[:2])+m[2]if m else g['legal_moves'][0]
+   try:g=po('/move',{'game':g['game'],'move':u})
    except:time.sleep(1)
